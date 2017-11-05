@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: mmr
- * Date: 2017/11/05
- * Time: 20:46
- */
+@extends('hello')
+@section('title')
+    ブレード最高！
+@endsection
+
+@section('body')
+    @parent<br/>
+    サブから
+@stop
+
